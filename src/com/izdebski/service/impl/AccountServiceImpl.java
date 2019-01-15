@@ -2,11 +2,13 @@ package com.izdebski.service.impl;
 
 
 import com.izdebski.model.Account;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+@Service("accountService")
 public class AccountServiceImpl implements AccountService {
 
     private static Map<String, Account> map = null;
