@@ -1,12 +1,35 @@
 package com.izdebski.service.impl;
 
+
 import com.izdebski.model.Account;
-import org.aspectj.lang.JoinPoint;
 
-public class AccountServiceImpl {
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
-    public void updateAccountBalance(Account account, Long amount){
+public class AccountServiceImpl implements AccountService {
 
-        System.out.println("Account No:" + account.getAccountNumber()+", Amount:" + amount);
+    private static Map<String, Account> map = null;
+
+    static{
+        map=new HashMap<>();
+        map.put("C67669800", new Account("78278287000", "Saving Account"));
+        map.put("C67669811", new Account("78278287111", "Current Account"));
+    }
+
+
+    @Override
+    public Account getAccountByCustomerId(String customerId) throws Exception {
+        if(customerId==null){
+            throw new Exception("Customer id is invalid");
+        }
+        Account account = null;
+        Set<Map.Entry<String, Account>> entrySet=map.entrySet();
+        for (Map.Entry<String, Account> entry : entrySet){
+            if(entry.getKey().equals(customerId)){
+                account=entry.getValue();
+            }
+        }
+        return account;
     }
 }

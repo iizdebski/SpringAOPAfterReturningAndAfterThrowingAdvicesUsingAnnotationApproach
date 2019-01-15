@@ -9,11 +9,11 @@
     http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <aop:config>
+    <aop:config proxy-target-class="true">
         <aop:pointcut expression="execution(* com.izdebski.service.impl.AccountServiceImpl.*(..))" id="selectALL"/>
         <aop:aspect ref="accountServiceAspect">
-            <aop:before method="beforeAdvice" pointcut-ref="selectALL"/>
-            <aop:after method="afterAdvice" pointcut-ref="selectALL"/>
+            <aop:after-returning method="afterReturningAdvice" pointcut-ref="selectALL" returning="account"/>
+
         </aop:aspect>
     </aop:config>
     <bean id="accountServiceAspect" class="com.izdebski.aop.aspect.AccountServiceAspect">

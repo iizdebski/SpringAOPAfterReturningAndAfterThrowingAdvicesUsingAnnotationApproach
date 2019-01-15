@@ -18,4 +18,12 @@ public class Account {
     public String getAccountDescription() {
         return accountDescription;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", accountDescription='" + accountDescription + '\'' +
+                '}';
+    }
 }
