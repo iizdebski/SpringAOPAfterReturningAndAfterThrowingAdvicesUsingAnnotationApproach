@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05ff1e4c-4e2c-405b-ae31-06fbbbd99c93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/izdebski/service/impl/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/SpringAOP.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/SpringAOP.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spring_4_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/spring_4_2_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAOPBeforeAdviceUsingXML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOPBeforeAdviceUsingXML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/Beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/Beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/aop/aspect/AccountServiceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/aop/aspect/AccountServiceAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/client/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/client/ClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringAOPBeforeAdviceUsingXML/com/izdebski/service/impl/AccountServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/izdebski/aop/aspect/AccountServiceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/izdebski/aop/aspect/AccountServiceAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/izdebski/client/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/izdebski/client/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/izdebski/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/izdebski/model/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/izdebski/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/izdebski/service/impl/AccountServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,55 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/izdebski/model/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/Beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="15" column="101" lean-forward="true" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/izdebski/service/impl/AccountServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/izdebski/aop/aspect/AccountServiceAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/izdebski/client/ClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="275">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +55,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/izdebski/model/Account.java" />
-        <option value="$PROJECT_DIR$/src/com/izdebski/aop/aspect/AccountServiceAspect.java" />
         <option value="$PROJECT_DIR$/src/com/izdebski/service/impl/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/com/izdebski/aop/aspect/AccountServiceAspect.java" />
+        <option value="$PROJECT_DIR$/src/Beans.xml" />
         <option value="$PROJECT_DIR$/src/com/izdebski/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/izdebski/client/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/Beans.xml" />
       </list>
     </option>
   </component>
@@ -178,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547551439135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547556997169" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Installations/libraries/Spring4.2.6/spring-4.2.6.libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,17 +185,18 @@
       <updated>1547472863446</updated>
       <workItem from="1547472871573" duration="5491000" />
       <workItem from="1547491662604" duration="243000" />
-      <workItem from="1547548079920" duration="3862000" />
+      <workItem from="1547548079920" duration="6970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9596000" />
+    <option name="totallyTimeSpent" value="12704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -250,13 +205,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5969664" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4312026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41061756" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.14301191" />
@@ -291,33 +246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/izdebski/service/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/izdebski/aop/aspect/AccountServiceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/izdebski/client/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/izdebski/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -331,10 +259,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/izdebski/aop/aspect/AccountServiceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/izdebski/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Beans.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="101" lean-forward="true" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/izdebski/client/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

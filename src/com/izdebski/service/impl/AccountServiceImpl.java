@@ -21,7 +21,7 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public Account getAccountByCustomerId(String customerId) throws Exception {
         if(customerId==null){
-            throw new Exception("Customer id is invalid");
+            throw new Exception("Customer Id is invalid");
         }
         Account account = null;
         Set<Map.Entry<String, Account>> entrySet=map.entrySet();

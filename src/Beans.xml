@@ -13,7 +13,7 @@
         <aop:pointcut expression="execution(* com.izdebski.service.impl.AccountServiceImpl.*(..))" id="selectALL"/>
         <aop:aspect ref="accountServiceAspect">
             <aop:after-returning method="afterReturningAdvice" pointcut-ref="selectALL" returning="account"/>
-
+            <aop:after-throwing method="afterThrowingAdvice" pointcut-ref="selectALL" throwing="ex"/>
         </aop:aspect>
     </aop:config>
     <bean id="accountServiceAspect" class="com.izdebski.aop.aspect.AccountServiceAspect">

@@ -13,7 +13,7 @@ public class ClientTest {
 
         AccountServiceImpl accountService = ctx.getBean("accountService", AccountServiceImpl.class);
 
-        Account account = accountService.getAccountByCustomerId("C67669811");
+        Account account = accountService.getAccountByCustomerId(null);
         if(account != null)
             System.out.println(account.getAccountNumber()+"\t"+account.getAccountDescription());
         ((ClassPathXmlApplicationContext) ctx).close();

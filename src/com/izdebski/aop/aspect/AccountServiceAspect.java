@@ -11,4 +11,10 @@ public class AccountServiceAspect {
 
         System.out.println(account);
     }
+
+    public void afterThrowingAdvice(JoinPoint joinPoint, Exception ex){
+        System.out.println("After Throwing exception in method:"+joinPoint.getSignature().getName()+",Class"+joinPoint.getTarget()
+        .getClass().getSimpleName());
+        System.out.println("Exception is:"+ex.getMessage());
+    }
 }
